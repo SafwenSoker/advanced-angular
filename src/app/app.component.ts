@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'advanced-angular';
+  number = 4
+  isClicked = false;
+  onClick(){
+    this.isClicked = true;
+  }
 }
